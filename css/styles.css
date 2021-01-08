@@ -1,5 +1,6 @@
 body{
 	margin: 0px;
+  width: 100%;
 }
 
 #maincontainer{
@@ -7,11 +8,12 @@ body{
 	align-items: center;
 	justify-content: center;
 	background: #c7c7c7;
-	height: 100vh;
+
 }
 
 input{
 	font-family: 'Roboto Mono', monospace;
+  font-size: 1.5rem;
 
 }
 /*NAVIGATION  font-family: 'Oswald', sans-serif;
@@ -28,6 +30,7 @@ font-family: 'Roboto Mono', monospace; */
 #navbar h2{
 	color: #ebebeb;
 	font-family: 'Oswald', sans-serif;
+  font-size: 2rem;
 }
 /*end of navigation*/
 
@@ -36,8 +39,11 @@ font-family: 'Roboto Mono', monospace; */
 	background: white;
 	border: 1px solid black;
 	border-radius: 10px;
-	width: 50%;
-	height: 80%;
+	width: 80%;
+  margin-top:  5%;
+  margin-bottom: 5%;
+
+
 }
 #formhead{
 	overflow: hidden;
@@ -45,8 +51,9 @@ font-family: 'Roboto Mono', monospace; */
   	display: flex;
   	align-items: center;
   	justify-content: space-around;
-  	height: 10vh;
+  	height: 10%;
   	border-radius: 5px;
+    font-size: 1.2rem;
 }
 #formhead h3{
 	color: white;
@@ -56,15 +63,17 @@ font-family: 'Roboto Mono', monospace; */
 #form{
 	display:grid;
 	grid-template-columns: 40% 40%;
-	grid-template-rows: 20px 20px;
-	grid-row-gap: 10px;
+	grid-template-rows: 2rem 2rem;
+	grid-row-gap: 2em;
 	grid-column-gap: 10px;
 	margin-left: 20%;
+
 }
 
 #form p{
 	padding: 0px; margin: 0px; text-align: center;
 	color: #363636;
+  font-size: 1.5rem;
 	font-family: 'Roboto Mono', monospace;
 }
 
@@ -85,6 +94,7 @@ font-family: 'Roboto Mono', monospace; */
   text-decoration: none;
   position: relative;
   overflow: hidden;
+  margin-bottom: 2%;
   grid-column: 1 / 3;
 }
 
