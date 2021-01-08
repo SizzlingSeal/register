@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- FONTS -->
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Roboto+Mono:ital@1&display=swap" rel="stylesheet">
+	<!--END FONTS -->
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	<title>Register</title>
+</head>
+<body>
+	<div id="navbar">
+  		<h2>Imagine Website</h2>
+	</div>
+
+	<div id ="maincontainer">
+		<div id ="formcontainer">
+			<div id ="formhead">
+				<h3>Register Form</h3>
+			</div>
+			<h4 style="text-align: center; color:#363636;">Avatar:  <button id="avatar"><input type="file" name="" style="opacity: 0; height: 100%; width: 100%; cursor: pointer;"></button></h4>
+
+			<div id="form">
+				<input type="text" id ="firstname" placeholder="First Name" maxlength = "25">
+				<input type="text" id="lastname" placeholder="Last Name" maxlength = "25">
+				<input type="date" id="dt" onchange="handler(event);"  max="2005-12-31"/>
+
+				<p style="text-align: left;" id ="age">Age:</p>
+				<p>Username:</p>
+				<input type="text" id="username" placeholder="Enter Username" maxlength = "20">
+				<p>Contact:</p>
+				<input type="text" id="contactno" placeholder="Enter Contact" maxlength = "11">
+				<p>Email:</p>
+				<input type="email" id="email" placeholder="Enter Email" maxlength = "30">
+				<p>Password:</p>
+				<input type="password" id="password" placeholder="Enter Password" maxlength = "25">
+				<p>Confirm Password:</p>
+				<input type="password" id="conpassword" placeholder="Confirm Password" maxlength = "25">
+				<a class="btn" onclick="registerfunction()">Register</a>
+			</div>
+
+		</div>
+	</div>
+
+
+
+<script src="javascript/myjs.js"></script>
+</body>
+</html>
